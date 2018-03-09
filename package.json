@@ -1,25 +1,33 @@
 {
-  "name": "copay",
-  "description": "A Secure Bitcoin Wallet",
-  "author": "BitPay",
-  "version": "4.0.7",
+  "name": "copay-crown",
+  "version": "0.0.0",
+  "publishConfig": {
+    "tag": "next"
+  },
+  "description": "A Secure Crown Wallet",
+  "author": "Crown Developers <info@crown.tech>",
+  "contributors": [
+    {
+      "name": "BitPay",
+      "email": "dev@bitpay.com"
+    }
+  ],
   "main": "electron/main.js",
   "keywords": [
-    "bitcoin",
+    "crown",
     "wallet",
-    "bitpay",
     "copay",
     "multisignature",
     "bitcore"
   ],
-  "homepage": "https://copay,io",
+  "homepage": "https://crown.tech",
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/bitpay/copay.git",
+    "url": "git://github.com/Crowndev/copay-crown.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/copay/issues"
+    "url": "https://github.com/Crowndev/copay-crown/issues"
   },
   "scripts": {
     "postinstall": "sed -i  -e \"s/.*require(...\\/...);//g\" node_modules/asn1.js-rfc5280/index.js && npm run e2e:update",
@@ -91,7 +99,7 @@
     "@types/papaparse": "^4.1.33",
     "angular2-moment": "^1.7.1",
     "bitauth": "git+https://github.com/bitpay/bitauth.git#copay",
-    "bitcore-wallet-client": "^6.6.4",
+    "bitcore-wallet-client-crown": "0.0.0",
     "buffer-compare": "^1.1.1",
     "cordova-android": "7.0.0",
     "cordova-clipboard": "^1.1.1",
