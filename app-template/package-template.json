@@ -1,12 +1,20 @@
 {
   "name": "*PACKAGENAME*",
-  "description": "*DESCRIPTION*",
-  "author": "BitPay",
   "version": "*VERSION*",
+  "publishConfig": {
+    "tag": "next"
+  },
+  "description": "*DESCRIPTION*",
+  "author": "Crown Developers <info@crown.tech>",
+  "contributors": [
+    {
+      "name": "BitPay",
+      "email": "dev@bitpay.com"
+    }
+  ],
   "keywords": [
-    "bitcoin",
+    "crown",
     "wallet",
-    "bitpay",
     "copay",
     "multisignature",
     "bitcore"
