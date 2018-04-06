@@ -1,3 +1,25 @@
+What's Different
+================
+
+This repo is based on the `addcf4df766afa12cd50dcebb880aa74dad7bae9` commit of the official copay.
+
+If you directly run this commit, while "npm start" it will display an error:
+
+```
+Running "browserify:dist" (browserify) task
+>> /home/zzz/other-projects/copay/www/index.html:1
+>> <!doctype html>
+>> ^
+>> ParseError: Unexpected token
+```
+
+Learning from commit `585e4d5dabaef15f40896cad7a704096f2a91330` we modified this line to fix:
+
+```
+"postinstall": "sed -i  -e \"s/.*require(...\\/...);//g\" node_modules/asn1.js-rfc5280/index.js;   bower install",
+```
+
+The following is the original contributing guide of bitcore-lib.
 
 # Contributing to Copay
 
@@ -73,8 +95,8 @@ provide as much detail and context as possible.
 <a name="support"></a>
 ## Support requests
 
-If you are having particular problem with your Copay instalation, please first [search older 
-issues](https://github.com/bitpay/copay/issues) in order to learn if the issue is already reported. It could be fixed already. 
+If you are having particular problem with your Copay instalation, please first [search older
+issues](https://github.com/bitpay/copay/issues) in order to learn if the issue is already reported. It could be fixed already.
 
 Please also check our [FAQ](https://github.com/bitpay/copay/wiki/COPAY---FAQ).
 
@@ -86,11 +108,11 @@ provide the following information:
  - Please import your wallet on a different platform. Does the problem persist?
  - What type of wallet are you using? (multisig or singlesig)
  - When the wallet was created? On which device / operating system
- - Please check Copay logs (General Settings -> About Copay -> Session Logs). Look for 
+ - Please check Copay logs (General Settings -> About Copay -> Session Logs). Look for
  any errors reported there (errors are shown in red)
  - If possible, please provide a screenshot of the error / issue.
- 
-If you need to provide personal / sensitive data to solve the issue (like the Wallet Id), do not use Github Issues. 
+
+If you need to provide personal / sensitive data to solve the issue (like the Wallet Id), do not use Github Issues.
 We will provide a better channel (like an BitPay email address) so you can send the information. If possible, please
 encrypt your emails using GnuPG.
 
