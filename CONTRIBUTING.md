@@ -19,6 +19,8 @@ Learning from commit `585e4d5dabaef15f40896cad7a704096f2a91330` we modified this
 "postinstall": "sed -i  -e \"s/.*require(...\\/...);//g\" node_modules/asn1.js-rfc5280/index.js;   bower install",
 ```
 
+To publish this package to npm, for now we must type `npm run apply:copay` to generate `package.json` first. This takes a long time and should be improved in the future.
+
 The following is the original contributing guide of bitcore-lib.
 
 # Contributing to Copay
