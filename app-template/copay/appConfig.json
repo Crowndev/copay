@@ -1,7 +1,7 @@
 {
   "packageName": "copay-crown",
   "packageDescription": "Copay Crown Wallet",
-  "packageNameId": "com.bitpay.copay",
+  "packageNameId": "com.crown.copay",
   "statusBarColor": "#192c3a",
   "userVisibleName": "Copay",
   "purposeLine": "Copay Crown Wallet",
