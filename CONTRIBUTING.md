@@ -21,6 +21,17 @@ Learning from commit `585e4d5dabaef15f40896cad7a704096f2a91330` we modified this
 
 To publish this package to npm, for now we must type `npm run apply:copay` to generate `package.json` first. This takes a long time and should be improved in the future.
 
+To-do List
+==========
+
+These things need to be "crownified":
+
+- "app-template/copay/google-services.json": Don't know whether bitpay-related strings should be replaced.
+- "app-template/copay/GoogleService-Info.plist": Don't know whether bitpay-related strings should be replaced.
+- "app-template/build-macos.sh" line 76: `export IDENTITY="3rd Party Mac Developer Application: BitPay, Inc. (884JRH5R93)"`
+- "app-template/config-template.xml" line 10: `<author email="support@bitpay.com" href="*URL*">`
+- "app-template/setup-win.iss" line 6: `#define MyAppPublisher "BitPay"`
+
 The following is the original contributing guide of bitcore-lib.
 
 # Contributing to Copay
