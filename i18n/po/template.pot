@@ -1422,7 +1422,7 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr ""
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor BitPay can recover your funds without a backup."
+msgid "If this device is replaced or this app is deleted, neither you nor Crown Developers can recover your funds without a backup."
 msgstr ""
 
 #: www/views/feedback/complete.html:23
@@ -1828,7 +1828,7 @@ msgid "Not enough funds for fee"
 msgstr ""
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
+msgid "Not even Crown Developers can access it."
 msgstr ""
 
 #: src/js/controllers/paperWallet.js:47
@@ -2738,7 +2738,7 @@ msgid "The maximum number of consecutive unused addresses (20) has been reached.
 msgstr ""
 
 #: src/js/controllers/onboarding/terms.js:21
-msgid "The official English Terms of Service are available on the BitPay website."
+msgid "The official English Terms of Service are available on the Crown website."
 msgstr ""
 
 #: www/views/tab-import-phrase.html:4
