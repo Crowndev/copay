@@ -465,7 +465,7 @@ angular.module('copayApp.controllers').controller('confirmController', function(
     if (!tx || !wallet) return;
 
     if ($scope.paymentExpired) {
-      popupService.showAlert(null, gettextCatalog.getString('This bitcoin payment request has expired.'));
+      popupService.showAlert(null, gettextCatalog.getString('This crown payment request has expired.'));
       $scope.sendStatus = '';
       $timeout(function() {
         $scope.$apply();
