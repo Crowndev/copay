@@ -355,7 +355,7 @@ angular.module('copayApp.controllers').controller('confirmController', function(
       return warningMsg.join('\n');
     };
 
-    var msg = gettextCatalog.getString("{{fee}} will be deducted for bitcoin networking fees.", {
+    var msg = gettextCatalog.getString("{{fee}} will be deducted for crown networking fees.", {
       fee: txFormatService.formatAmountStr(sendMaxInfo.fee)
     });
     var warningMsg = verifyExcludedUtxos();
