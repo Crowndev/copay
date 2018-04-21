@@ -3485,4 +3485,3 @@ msgstr "{{updatingTxHistoryProgress}} 個の取引ダウンロード済み"
 #: www/views/includes/walletInfo.html:13
 msgid "{{wallet.m}}-of-{{wallet.n}}"
 msgstr "{{wallet.m}}-of-{{wallet.n}}"
-
