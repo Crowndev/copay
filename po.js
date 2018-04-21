@@ -6,6 +6,11 @@ let assert = require('assert');
 
 let sourceText = fs.readFileSync('i18n/po/template.pot', {encoding: 'utf8'});
 let sourceLines = sourceText.split(/\n|\r\n/);
+let sourceLinesBodyStartIndex = sourceLines.indexOf('');
+
+assert(sourceLines[0] === 'msgid ""');
+assert(sourceLines[sourceLines.length - 1] === '' && sourceLines[sourceLines.length - 2].trim() !== '');
+assert(1 <= sourceLinesBodyStartIndex && sourceLinesBodyStartIndex <= 19);
 
 fs.readdirSync('i18n/po').filter(m => m.endsWith('.po')).forEach(filename => {
   console.log('Merging ' + filename);
@@ -14,15 +19,11 @@ fs.readdirSync('i18n/po').filter(m => m.endsWith('.po')).forEach(filename => {
   let targetText = fs.readFileSync(targetFile, {encoding: 'utf8'});
   let targetLines = targetText.split(/\n|\r\n/);
 
-  assert(sourceLines[0] === 'msgid ""');
   assert(targetLines[0] === 'msgid ""');
-  assert(sourceLines[sourceLines.length - 1] === '' && sourceLines[sourceLines.length - 2].trim() !== '');
   assert(targetLines[targetLines.length - 1] === '' && targetLines[targetLines.length - 2].trim() !== '');
 
-  let sourceLinesBodyStartIndex = sourceLines.indexOf('');
   let targetLinesBodyStartIndex = targetLines.indexOf('');
 
-  assert(1 <= sourceLinesBodyStartIndex && sourceLinesBodyStartIndex <= 19);
   assert(1 <= targetLinesBodyStartIndex && targetLinesBodyStartIndex <= 19);
 
   for (let i = 0; i < sourceLines.length - sourceLinesBodyStartIndex; i++) {
