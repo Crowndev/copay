@@ -8,6 +8,8 @@ let sourceText = fs.readFileSync('i18n/po/template.pot', {encoding: 'utf8'});
 let sourceLines = sourceText.split(/\n|\r\n/);
 
 fs.readdirSync('i18n/po').filter(m => m.endsWith('.po')).forEach(filename => {
+  console.log('Merging ' + filename);
+
   let targetFile = 'i18n/po/' + filename;
   let targetText = fs.readFileSync(targetFile, {encoding: 'utf8'});
   let targetLines = targetText.split(/\n|\r\n/);
@@ -22,22 +24,28 @@ fs.readdirSync('i18n/po').filter(m => m.endsWith('.po')).forEach(filename => {
 
   assert(1 <= sourceLinesBodyStartIndex && sourceLinesBodyStartIndex <= 19);
   assert(1 <= targetLinesBodyStartIndex && targetLinesBodyStartIndex <= 19);
-  assert(sourceLines.length - sourceLinesBodyStartIndex === targetLines.length - targetLinesBodyStartIndex);
 
   for (let i = 0; i < sourceLines.length - sourceLinesBodyStartIndex; i++) {
     let sourceLine = sourceLines[sourceLinesBodyStartIndex + i];
     let targetLine = targetLines[targetLinesBodyStartIndex + i];
+    let errorMessage = `Target po file line number: ${targetLinesBodyStartIndex + i}`;
     if (sourceLine.startsWith('msgid ')) {
-      assert(targetLine.startsWith('msgid '));
+      assert(targetLine.startsWith('msgid '), errorMessage);
       targetLines[targetLinesBodyStartIndex + i] = sourceLine;
     }
     else if (sourceLine.startsWith('msgstr ')) {
-      assert(targetLine.startsWith('msgstr '));
+      assert(targetLine.startsWith('msgstr '), errorMessage);
     }
     else {
-      assert(targetLine === sourceLine);
+      assert(targetLine === sourceLine, errorMessage);
     }
   }
+
+  // This check is placed at the end because it should first check and display the accurate line
+  // for the possible error. If this check is done beforehand, the performance will be faster, but we
+  // won't know which area in the po file causes the error.
+  // Maybe this check is useless if it's placed here.
+  assert(sourceLines.length - sourceLinesBodyStartIndex === targetLines.length - targetLinesBodyStartIndex);
 
   targetText = targetLines.join('\n');
   fs.writeFileSync(targetFile, targetText);
