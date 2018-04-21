@@ -15,7 +15,7 @@ fs.readdirSync('i18n/po').filter(m => m.endsWith('.po')).forEach(filename => {
   assert(sourceLines[0] === 'msgid ""');
   assert(targetLines[0] === 'msgid ""');
   assert(sourceLines[sourceLines.length - 1] === '' && sourceLines[sourceLines.length - 2].trim() !== '');
-  assert(targetLines[sourceLines.length - 1] === '' && targetLines[targetLines.length - 2].trim() !== '');
+  assert(targetLines[targetLines.length - 1] === '' && targetLines[targetLines.length - 2].trim() !== '');
 
   let sourceLinesBodyStartIndex = sourceLines.indexOf('');
   let targetLinesBodyStartIndex = targetLines.indexOf('');
