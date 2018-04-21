@@ -5,11 +5,11 @@ let fs = require('fs');
 let assert = require('assert');
 
 let sourceText = fs.readFileSync('i18n/po/template.pot', {encoding: 'utf8'});
+let sourceLines = sourceText.split(/\n|\r\n/);
 
 fs.readdirSync('i18n/po').filter(m => m.endsWith('.po')).forEach(filename => {
   let targetFile = 'i18n/po/' + filename;
   let targetText = fs.readFileSync(targetFile, {encoding: 'utf8'});
-  let sourceLines = sourceText.split(/\n|\r\n/);
   let targetLines = targetText.split(/\n|\r\n/);
 
   assert(sourceLines[0] === 'msgid ""');
