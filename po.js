@@ -86,6 +86,9 @@ fs.readdirSync('i18n/po').filter(m => m.endsWith('.po')).forEach(filename => {
         targetCursor++;
       }
       else {
+        // Note that "msgid" can also be multiline, but if it is, this mechanism also works,
+        // because "msgid" contents should be the same between the source and the target, including
+        // whether it's multiline and the content of each line.
         assert(targetLine === sourceLine, errorMessage);
         sourceCursor++;
         targetCursor++;
