@@ -1,5 +1,8 @@
 'use strict';
 
+// This script is idempotent, meaning the generated po files will be the same regardless of
+// whether you run it once or many times.
+
 let cp = require('child_process');
 let fs = require('fs');
 let assert = require('assert');
@@ -74,7 +77,9 @@ fs.readdirSync('i18n/po').filter(m => m.endsWith('.po')).forEach(filename => {
       }
       else if (sourceLine.startsWith('msgid ')) {
         assert(targetLine.startsWith('msgid '), errorMessage);
-        targetLines[targetCursor] = sourceLine;
+        if (targetLine !== sourceLine) {
+          targetLines[targetCursor] = sourceLine + '<MSGID-CHANGED>';
+        }
         sourceCursor++;
         targetCursor++;
       }
