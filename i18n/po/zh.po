@@ -178,11 +178,11 @@ msgid "All Addresses"
 msgstr "所有地址"
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your crown wallet balance may not be available for immediate spending."<MSGID-CHANGED>
 msgstr "所有您的比特币的钱包余额可能无法用于直接支出。"
 
 #: www/views/tab-receive.html:25
-msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
+msgid "All signing devices must be added to this multisig wallet before crown addresses can be created."<MSGID-CHANGED>
 msgstr "比特币地址可以创建之前，签名的所有设备都必须都添加到这个对数钱包。"
 
 #: www/views/tab-scan.html:21
@@ -229,11 +229,11 @@ msgid "An update to this app is available. For your security, please update to t
 msgstr "本程序有一个可用的更新。为了您的安全，请更新到最新版本。"
 
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your bitcoin."
+msgid "Anyone with your backup phrase can access or spend your crown."<MSGID-CHANGED>
 msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的比特币。"
 
 #: www/views/addresses.html:94
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate Crown network fee to transfer wallet's balance (with normal priority)"<MSGID-CHANGED>
 msgstr "近似的比特币网络费用将钱包的余额转移 (与正常优先级)"
 
 #: www/views/backupWarning.html:10
@@ -241,7 +241,7 @@ msgid "Are you being watched?"
 msgstr "你正在被监视吗？"
 
 #: src/js/controllers/preferencesExternal.js:15
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your bitcoin."
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your crown."<MSGID-CHANGED>
 msgstr "有旁观者么？只要有人知道了你的恢复短语，他就能访问你的比特币，或者花费它。"
 
 #: src/js/controllers/copayers.js:56
@@ -349,33 +349,33 @@ msgstr "BitPay Visa&reg; 牌"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Bitcoin Address"
+msgid "Crown Address"<MSGID-CHANGED>
 msgstr "比特币地址"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:85
-msgid "Bitcoin Network Fee Policy"
+msgid "Crown Network Fee Policy"<MSGID-CHANGED>
 msgstr "比特币网络手续费策略"
 
 #: www/views/tab-settings.html:63
-msgid "Bitcoin Unit"
+msgid "Crown Unit"<MSGID-CHANGED>
 msgstr "比特币单位"
 
 #: www/views/onboarding/tour.html:31
-msgid "Bitcoin is a currency."
+msgid "Crown is a currency."<MSGID-CHANGED>
 msgstr "比特币是一种货币。"
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
+msgid "Crown is different &ndash; it cannot be safely held with a bank or web service."<MSGID-CHANGED>
 msgstr "比特币是不同 — — 它不能安全地举行以银行或 web 服务。"
 
 #: www/views/onboarding/tour.html:18
-msgid "Bitcoin is secure,<br>digital money."
+msgid "Crown is secure,<br>digital money."<MSGID-CHANGED>
 msgstr "比特币是安全的 <br>数字货币。"
 
 #: www/views/preferencesFee.html:11
-msgid "Bitcoin transactions include a fee collected by miners on the network."
+msgid "Crown transactions include a fee collected by miners on the network."<MSGID-CHANGED>
 msgstr "比特币交易包括在网络上被矿工所收取的费用。"
 
 #: www/views/buyAmazon.html:108
@@ -405,11 +405,11 @@ msgid "Buy"
 msgstr "购买"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Bitcoin"
+msgid "Buy &amp; Sell Crown"<MSGID-CHANGED>
 msgstr "购买或出售比特币"
 
 #: www/views/tab-send.html:35
-msgid "Buy Bitcoin"
+msgid "Buy Crown"<MSGID-CHANGED>
 msgstr "购买比特币"
 
 #: www/views/mercadoLibre.html:22
@@ -422,7 +422,7 @@ msgid "Buy from"
 msgstr "从什么地方购买"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Bitcoin..."
+msgid "Buying Crown..."<MSGID-CHANGED>
 msgstr "正在发送 比特币..."
 
 #: src/js/services/onGoingProcess.js:12
@@ -773,7 +773,7 @@ msgstr "创建自己的免费钱包"
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:77
 #: www/views/tab-send.html:36
-msgid "Create bitcoin wallet"
+msgid "Create crown wallet"<MSGID-CHANGED>
 msgstr "创建比特币的钱包"
 
 #: www/views/tab-create-personal.html:129
@@ -891,7 +891,7 @@ msgid "Download"
 msgstr "下载"
 
 #: www/views/addresses.html:19
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each crown wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."<MSGID-CHANGED>
 msgstr "每个比特币钱包可以从您的 12 字备份生成亿万个地址。一个新的地址是自动生成和显示每个时间你收到付款。"
 
 #: src/js/services/feeService.js:13
@@ -1407,7 +1407,7 @@ msgid "I understand"
 msgstr "我知道了"
 
 #: www/views/onboarding/disclaimer.html:21
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the backup phrase."
+msgid "I understand that if this app is moved to another device or deleted, my crown can only be recovered with the backup phrase."<MSGID-CHANGED>
 msgstr "我明白是否这个应用程序是搬到另一个设备或删除，我比特币可以只能进行恢复与备份的短语。"
 
 #: www/views/onboarding/disclaimer.html:18
@@ -1431,7 +1431,7 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr "如果启用了，钱包也尝试使用未经证实的资金。此选项可能会导致事务延迟。"
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor BitPay can recover your funds without a backup."
+msgid "If this device is replaced or this app is deleted, neither you nor Crown Developers can recover your funds without a backup."<MSGID-CHANGED>
 msgstr "如果此设备被替换或删除此应用程序，你和 BitPay 都不可以恢复你的资金，也没有备份。"
 
 #: www/views/feedback/complete.html:23
@@ -1560,7 +1560,7 @@ msgid "Is this email address correct?"
 msgstr "此电子邮件地址是正确的？"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your crowns secure against hypothetical attacks by quantum computers."<MSGID-CHANGED>
 msgstr "它是一个好主意，以避免重用地址 — — 这既能保护您的隐私又保持您的比特币安全假设攻击由量子计算机。"
 
 #: src/js/controllers/backup.js:76
@@ -1769,7 +1769,7 @@ msgid "No access key defined"
 msgstr "没有定义的访问键"
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no bitcoin."
+msgid "No backup, no crown."<MSGID-CHANGED>
 msgstr "没有备份，没有比特币。"
 
 #: www/views/addressbook.html:19
@@ -1837,7 +1837,7 @@ msgid "Not enough funds for fee"
 msgstr "费用的资金不足"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
+msgid "Not even Crown Developers can access it."<MSGID-CHANGED>
 msgstr "甚至没有 BitPay 可以访问它。"
 
 #: src/js/controllers/paperWallet.js:47
@@ -1854,7 +1854,7 @@ msgid "Note"
 msgstr "备注"
 
 #: www/views/modals/wallets.html:25
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell bitcoin"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell crown"<MSGID-CHANGED>
 msgstr "注意︰ 只有 1-1 （单签名） 钱包可以用于卖比特币"
 
 #: www/views/preferencesNotifications.html:3
@@ -1985,7 +1985,7 @@ msgid "Paste the backup plain text code"
 msgstr "粘贴备份的纯文本代码"
 
 #: www/views/bitpayCardIntro.html:28
-msgid "Pay 0% fees to turn bitcoin into dollars."
+msgid "Pay 0% fees to turn crown into dollars."<MSGID-CHANGED>
 msgstr "0%付费以比特币变成美元。"
 
 #: www/views/modals/paypro.html:18
@@ -2383,7 +2383,7 @@ msgid "Search Transactions"
 msgstr "搜索交易"
 
 #: www/views/tab-send.html:13
-msgid "Search or enter bitcoin address"
+msgid "Search or enter crown address"<MSGID-CHANGED>
 msgstr "搜索或输入比特币地址"
 
 #: www/views/modals/search.html:16
@@ -2415,7 +2415,7 @@ msgid "Self-signed Certificate"
 msgstr "自签名证书"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Bitcoin..."
+msgid "Selling Crown..."<MSGID-CHANGED>
 msgstr "出售比特币......"
 
 #: www/views/feedback/send.html:13
@@ -2568,7 +2568,7 @@ msgid "Show advanced options"
 msgstr "显示高级选项"
 
 #: www/views/tab-send.html:37
-msgid "Show bitcoin address"
+msgid "Show crown address"<MSGID-CHANGED>
 msgstr "显示比特币地址"
 
 #: www/views/tab-send.html:59
@@ -2624,11 +2624,11 @@ msgid "Spending Password needed"
 msgstr "需要支付密码"
 
 #: www/views/walletDetails.html:161
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Crown network fees"<MSGID-CHANGED>
 msgstr "这笔交易将需要非常高的比特币网络手续费"
 
 #: www/views/tab-send.html:28
-msgid "Start sending bitcoin"
+msgid "Start sending crown"<MSGID-CHANGED>
 msgstr "开始发送比特币"
 
 #: www/views/lockSetup.html:3
@@ -2666,7 +2666,7 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "此操作无法撤消"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with bitcoin."
+msgid "Take control of your money,<br>get started with crown."<MSGID-CHANGED>
 msgstr "把你的钱，<br>得到控制开始用比特币。"
 
 #: www/views/walletDetails.html:139
@@ -2719,15 +2719,15 @@ msgid "The Ledger Chrome application is not installed"
 msgstr "Ledger Chrome 应用程序未安装"
 
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of bitcoin immediately spendable from this wallet."
+msgid "The amount of crown immediately spendable from this wallet."<MSGID-CHANGED>
 msgstr "比特币立即可从这个钱包的金额。"
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgid "The amount of crown stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."<MSGID-CHANGED>
 msgstr "比特币存储在分配作为你挂起的事务建议的输入这个钱包中的金额。量确定使用未用余额交易记录输出与这个钱包关联，可能会与您挂起的事务建议相关联的实际数额超过。"
 
 #: www/views/modals/wallet-balance.html:74
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
+msgid "The amount of crown stored in this wallet with less than 1 blockchain confirmation."<MSGID-CHANGED>
 msgstr "比特币存储在与小于 1 blockchain 确认这个钱包中的金额。"
 
 #: www/views/tab-import-phrase.html:5
@@ -2747,7 +2747,7 @@ msgid "The maximum number of consecutive unused addresses (20) has been reached.
 msgstr "已连续未使用的地址 (20) 的最大数目。当您未使用的地址之一收到付款时，将生成一个新的地址，和您接收选项卡所示。"
 
 #: src/js/controllers/onboarding/terms.js:21
-msgid "The official English Terms of Service are available on the BitPay website."
+msgid "The official English Terms of Service are available on the Crown website."<MSGID-CHANGED>
 msgstr "官方的英语术语服务是可在 BitPay 网站上。"
 
 #: www/views/tab-import-phrase.html:4
@@ -2782,7 +2782,7 @@ msgid "The spend proposal is not pending"
 msgstr "花费提议不是未决"
 
 #: www/views/modals/wallet-balance.html:36
-msgid "The total amount of bitcoin stored in this wallet."
+msgid "The total amount of crown stored in this wallet."<MSGID-CHANGED>
 msgstr "比特币存储在这个钱包的总量。"
 
 #: www/views/preferencesHistory.html:27
@@ -2813,11 +2813,11 @@ msgid "This app is fantastic!"
 msgstr "这个应用程序太棒了 ！"
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your bitcoin with cutting-edge security."
+msgid "This app stores your crown with cutting-edge security."<MSGID-CHANGED>
 msgstr "此应用程序商店你比特币与尖端的安全。"
 
 #: src/js/controllers/confirm.js:468
-msgid "This bitcoin payment request has expired."
+msgid "This crown payment request has expired."<MSGID-CHANGED>
 msgstr "这比特币付款请求已过期。"
 
 #: www/views/join.html:130
@@ -2831,7 +2831,7 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "此恢复短语是用密码创建。为了恢复此钱包，需要恢复短语和密码。"
 
 #: www/views/tx-details.html:93
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current Crown network fees. Spending these funds will need a Crown network fee cost comparable to the funds itself."<MSGID-CHANGED>
 msgstr "相对于当前比特币网络费，这笔交易金额太小。手续费相当于这笔交易金额本身。"
 
 #: www/views/tx-details.html:89
@@ -2858,11 +2858,11 @@ msgid "To"
 msgstr "发送到"
 
 #: www/views/tab-send.html:32
-msgid "To get started, buy bitcoin or share your address. You can receive bitcoin from any wallet or service."
+msgid "To get started, buy crown or share your address. You can receive crown from any wallet or service."<MSGID-CHANGED>
 msgstr "若要开始，请买比特币或共享您的地址。你可以从任何钱包或服务接收比特币。"
 
 #: www/views/tab-send.html:33
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
+msgid "To get started, you'll need to create a crown wallet and get some crown."<MSGID-CHANGED>
 msgstr "若要开始，您将需要创建一个比特币的钱包，并获得一些比特币。"
 
 #: src/js/services/bitpayAccountService.js:73
@@ -2954,7 +2954,7 @@ msgid "Try again in {{expires}}"
 msgstr "在 {{expires}} 中再试一次"
 
 #: www/views/bitpayCardIntro.html:18
-msgid "Turn bitcoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgid "Turn crown into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."<MSGID-CHANGED>
 msgstr "比特币变成美元，刷在接受 Visa<sup>®</sup> 的任何地方。"
 
 #: www/views/tab-import-phrase.html:17
@@ -3319,7 +3319,7 @@ msgid "You can make contributions by signing up on our Crowdin community transla
 msgstr "您可以通过签约我们 Crowdin 社区翻译网站作出贡献。我们期待你的听力 ！"
 
 #: www/views/tab-scan.html:16
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
+msgid "You can scan crown addresses, payment requests, paper wallets, and more."<MSGID-CHANGED>
 msgstr "您可以扫描比特币地址、 付款申请、 纸钱包和更多。"
 
 #: src/js/controllers/preferencesAbout.js:14
@@ -3327,7 +3327,7 @@ msgid "You can see the latest developments and contribute to this open source ap
 msgstr "你可以看到最新的事态发展和贡献这个开放源码应用程序通过在 GitHub 上访问我们的项目。"
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend bitcoin at millions of websites and stores worldwide."
+msgid "You can spend crown at millions of websites and stores worldwide."<MSGID-CHANGED>
 msgstr "你可以花比特币在数以百万计的网站和世界各地的商店。"
 
 #: www/views/backup.html:12
@@ -3339,7 +3339,7 @@ msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
 msgstr "你可以换其他货币，如美元、 欧元或英镑。"
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your bitcoin."
+msgid "You control your crown."<MSGID-CHANGED>
 msgstr "您可以控制您的比特币。"
 
 #: www/views/modals/chooseFeeLevel.html:64
@@ -3364,11 +3364,11 @@ msgid "Your Gift Cards"
 msgstr "礼品卡"
 
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your bitcoin wallet is backed up!"
+msgid "Your crown wallet is backed up!"<MSGID-CHANGED>
 msgstr "你的比特币钱包被备份 ！"
 
 #: www/views/tab-home.html:36
-msgid "Your bitcoin wallet is ready!"
+msgid "Your crown wallet is ready!"<MSGID-CHANGED>
 msgstr "你的比特币钱包是准备好了 ！"
 
 #: www/views/modals/chooseFeeLevel.html:61
@@ -3464,7 +3464,7 @@ msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain inform
 msgstr "{{appName}} 中的区块链信息依赖于 Bitcore Wallet Service (BWS)、网络和 Copayer synchronization。默认配置指向 https://bws.crown.tech (Crown 的公共 BWS 实例)。"
 
 #: src/js/controllers/confirm.js:358
-msgid "{{fee}} will be deducted for bitcoin networking fees."
+msgid "{{fee}} will be deducted for crown networking fees."<MSGID-CHANGED>
 msgstr "{{fee}} 将比特币网络费用中扣除。"
 
 #: www/views/confirm.html:87
@@ -3479,4 +3479,3 @@ msgstr "下载的 {{updatingTxHistoryProgress}} 交易"
 #: www/views/includes/walletInfo.html:13
 msgid "{{wallet.m}}-of-{{wallet.n}}"
 msgstr "{{wallet.m}}{{wallet.n}}"
-

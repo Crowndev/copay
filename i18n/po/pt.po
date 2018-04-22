@@ -178,11 +178,11 @@ msgid "All Addresses"
 msgstr "Todos os endereços"
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your crown wallet balance may not be available for immediate spending."<MSGID-CHANGED>
 msgstr "Todos os seus bitcoins na carteira poderão não estar disponíveis de imediato para gastar."
 
 #: www/views/tab-receive.html:25
-msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
+msgid "All signing devices must be added to this multisig wallet before crown addresses can be created."<MSGID-CHANGED>
 msgstr "Todos os dispositivos de autenticação devem ser adicionados a esta carteira de multi-assinatura antes dos endereços bitcoin poderem ser criados."
 
 #: www/views/tab-scan.html:21
@@ -229,11 +229,11 @@ msgid "An update to this app is available. For your security, please update to t
 msgstr "Está disponível uma actualização para esta aplicação. Para sua segurança, por favor atualize para a versão mais recente."
 
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your bitcoin."
+msgid "Anyone with your backup phrase can access or spend your crown."<MSGID-CHANGED>
 msgstr "Qualquer pessoa com sua frase de segurança pode aceder ou gastar os seus bitcoins."
 
 #: www/views/addresses.html:94
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate Crown network fee to transfer wallet's balance (with normal priority)"<MSGID-CHANGED>
 msgstr "Taxa de rede Bitcoin aproximada para transferir o saldo da carteira (com prioridade normal)"
 
 #: www/views/backupWarning.html:10
@@ -241,7 +241,7 @@ msgid "Are you being watched?"
 msgstr "Você está sendo vigiado?"
 
 #: src/js/controllers/preferencesExternal.js:15
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your bitcoin."
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your crown."<MSGID-CHANGED>
 msgstr "Você está sendo observado? Qualquer pessoa com sua frase de recuperação pode acessar ou gastar seu bitcoin."
 
 #: src/js/controllers/copayers.js:56
@@ -349,33 +349,33 @@ msgstr "Cartões BitPay Visa&reg"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Bitcoin Address"
+msgid "Crown Address"<MSGID-CHANGED>
 msgstr "Endereço Bitcoin"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:85
-msgid "Bitcoin Network Fee Policy"
+msgid "Crown Network Fee Policy"<MSGID-CHANGED>
 msgstr "Política de taxa de rede Bitcoin"
 
 #: www/views/tab-settings.html:63
-msgid "Bitcoin Unit"
+msgid "Crown Unit"<MSGID-CHANGED>
 msgstr "Unidade do Bitcoin"
 
 #: www/views/onboarding/tour.html:31
-msgid "Bitcoin is a currency."
+msgid "Crown is a currency."<MSGID-CHANGED>
 msgstr "Bitcoin é uma moeda."
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
+msgid "Crown is different &ndash; it cannot be safely held with a bank or web service."<MSGID-CHANGED>
 msgstr "Bitcoin é diferente &ndash; ela não pode ser retida com segurança por um serviço web ou banco."
 
 #: www/views/onboarding/tour.html:18
-msgid "Bitcoin is secure,<br>digital money."
+msgid "Crown is secure,<br>digital money."<MSGID-CHANGED>
 msgstr "Bitcoin é seguro,<br>moeda digital."
 
 #: www/views/preferencesFee.html:11
-msgid "Bitcoin transactions include a fee collected by miners on the network."
+msgid "Crown transactions include a fee collected by miners on the network."<MSGID-CHANGED>
 msgstr "As transações Bitcoin incluem uma taxa cobrada pelos mineiros na rede."
 
 #: www/views/buyAmazon.html:108
@@ -405,11 +405,11 @@ msgid "Buy"
 msgstr ""
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Bitcoin"
+msgid "Buy &amp; Sell Crown"<MSGID-CHANGED>
 msgstr "Comprar &amp; Vender Bitcoin"
 
 #: www/views/tab-send.html:35
-msgid "Buy Bitcoin"
+msgid "Buy Crown"<MSGID-CHANGED>
 msgstr "Comprar Bitcoin"
 
 #: www/views/mercadoLibre.html:22
@@ -422,7 +422,7 @@ msgid "Buy from"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Bitcoin..."
+msgid "Buying Crown..."<MSGID-CHANGED>
 msgstr "A comprar Bitcoin..."
 
 #: src/js/services/onGoingProcess.js:12
@@ -773,7 +773,7 @@ msgstr "Criar carteira partilhada"
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:77
 #: www/views/tab-send.html:36
-msgid "Create bitcoin wallet"
+msgid "Create crown wallet"<MSGID-CHANGED>
 msgstr "Criar carteira bitcoin"
 
 #: www/views/tab-create-personal.html:129
@@ -891,7 +891,7 @@ msgid "Download"
 msgstr "Download"
 
 #: www/views/addresses.html:19
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each crown wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."<MSGID-CHANGED>
 msgstr "Cada carteira de Bitcoin pode gerar biliões de endereços através do seu backup de 12-palavras. Um novo endereço é gerado automáticamente e mostrado cada vez que receber um pagamento."
 
 #: src/js/services/feeService.js:13
@@ -1407,7 +1407,7 @@ msgid "I understand"
 msgstr "Eu compreendi"
 
 #: www/views/onboarding/disclaimer.html:21
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the backup phrase."
+msgid "I understand that if this app is moved to another device or deleted, my crown can only be recovered with the backup phrase."<MSGID-CHANGED>
 msgstr "Eu entendi que se esse aplicativo for movido para outro dispositivo ou deletado, meus bitcoins só podem ser recuperados com frase de backup."
 
 #: www/views/onboarding/disclaimer.html:18
@@ -1431,7 +1431,7 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr "Se habilitado, as carteiras irão tentar gastar fundos não confirmados. Está opção pode causar atrasos de transações."
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor BitPay can recover your funds without a backup."
+msgid "If this device is replaced or this app is deleted, neither you nor Crown Developers can recover your funds without a backup."<MSGID-CHANGED>
 msgstr "Se esse dispositivo é substituído ou este aplicativo deletado, nem você nem a BitPay poderá recuperar seus fundos sem um backup."
 
 #: www/views/feedback/complete.html:23
@@ -1560,7 +1560,7 @@ msgid "Is this email address correct?"
 msgstr "Este endereço de e-mail está correto?"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your crowns secure against hypothetical attacks by quantum computers."<MSGID-CHANGED>
 msgstr "É uma boa ideia evitar a reutilização de endereços - isto também protege a sua privacidade e mantém seus bitcoins seguros, contra prováveis ataques de computadores quânticos."
 
 #: src/js/controllers/backup.js:76
@@ -1769,7 +1769,7 @@ msgid "No access key defined"
 msgstr ""
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no bitcoin."
+msgid "No backup, no crown."<MSGID-CHANGED>
 msgstr "Sem backup, sem bitcoin."
 
 #: www/views/addressbook.html:19
@@ -1837,7 +1837,7 @@ msgid "Not enough funds for fee"
 msgstr "Não há fundos para taxa"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
+msgid "Not even Crown Developers can access it."<MSGID-CHANGED>
 msgstr "Nem mesmo Bitpay pode acessar isso."
 
 #: src/js/controllers/paperWallet.js:47
@@ -1854,7 +1854,7 @@ msgid "Note"
 msgstr "Nota"
 
 #: www/views/modals/wallets.html:25
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell bitcoin"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell crown"<MSGID-CHANGED>
 msgstr "Aviso: Apenas Carteiras 1-1 (de assinatura única) podem ser usadas para vender bitcoins"
 
 #: www/views/preferencesNotifications.html:3
@@ -1985,7 +1985,7 @@ msgid "Paste the backup plain text code"
 msgstr "Cole o texto puro do backup aqui"
 
 #: www/views/bitpayCardIntro.html:28
-msgid "Pay 0% fees to turn bitcoin into dollars."
+msgid "Pay 0% fees to turn crown into dollars."<MSGID-CHANGED>
 msgstr "Pague taxas de 0% para transformar bitcoin em dólar."
 
 #: www/views/modals/paypro.html:18
@@ -2383,7 +2383,7 @@ msgid "Search Transactions"
 msgstr "Procurar transações"
 
 #: www/views/tab-send.html:13
-msgid "Search or enter bitcoin address"
+msgid "Search or enter crown address"<MSGID-CHANGED>
 msgstr "Procure ou digite o endereço bitcoin"
 
 #: www/views/modals/search.html:16
@@ -2415,7 +2415,7 @@ msgid "Self-signed Certificate"
 msgstr "Certificado Auto-Assinado"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Bitcoin..."
+msgid "Selling Crown..."<MSGID-CHANGED>
 msgstr "Vendendo Bitcoin..."
 
 #: www/views/feedback/send.html:13
@@ -2568,7 +2568,7 @@ msgid "Show advanced options"
 msgstr "Mostrar opções avançadas"
 
 #: www/views/tab-send.html:37
-msgid "Show bitcoin address"
+msgid "Show crown address"<MSGID-CHANGED>
 msgstr "Mostrar endereço bitcoin"
 
 #: www/views/tab-send.html:59
@@ -2624,11 +2624,11 @@ msgid "Spending Password needed"
 msgstr "Digitar a senha é necessária"
 
 #: www/views/walletDetails.html:161
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Crown network fees"<MSGID-CHANGED>
 msgstr "Gastar este balanço necessitará uma taxa de rede Bitcoin significativa"
 
 #: www/views/tab-send.html:28
-msgid "Start sending bitcoin"
+msgid "Start sending crown"<MSGID-CHANGED>
 msgstr "Comece a enviar bitcoin"
 
 #: www/views/lockSetup.html:3
@@ -2666,7 +2666,7 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "ESTA AÇÃO NÃO PODE SER REVERTIDA"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with bitcoin."
+msgid "Take control of your money,<br>get started with crown."<MSGID-CHANGED>
 msgstr "Assuma o controle de seu dinheiro, <br> começar com bitcoin."
 
 #: www/views/walletDetails.html:139
@@ -2719,15 +2719,15 @@ msgid "The Ledger Chrome application is not installed"
 msgstr "O aplicativo Ledger Chrome não está instalado"
 
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of bitcoin immediately spendable from this wallet."
+msgid "The amount of crown immediately spendable from this wallet."<MSGID-CHANGED>
 msgstr "A quantidade de bitcoin imediatamente spendable desta carteira."
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgid "The amount of crown stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."<MSGID-CHANGED>
 msgstr "A quantidade de bitcoin armazenada nesta carteira que é alocada como entradas para suas propostas de transação pendentes. O valor é determinado usando saídas de transação não utilizadas associadas a essa carteira e podem ser maiores do que os valores reais associados às suas propostas de transações pendentes."
 
 #: www/views/modals/wallet-balance.html:74
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
+msgid "The amount of crown stored in this wallet with less than 1 blockchain confirmation."<MSGID-CHANGED>
 msgstr "A quantidade de bitcoin armazenada nesta carteira com menos de 1 confirmação blockchain."
 
 #: www/views/tab-import-phrase.html:5
@@ -2747,7 +2747,7 @@ msgid "The maximum number of consecutive unused addresses (20) has been reached.
 msgstr "O número máximo de endereços não utilizados consecutivos (20) foi atingido. Quando um de seus endereços não utilizados recebe um pagamento, um novo endereço será gerado e mostrado na sua guia Receber."
 
 #: src/js/controllers/onboarding/terms.js:21
-msgid "The official English Terms of Service are available on the BitPay website."
+msgid "The official English Terms of Service are available on the Crown website."<MSGID-CHANGED>
 msgstr "Os Termos de Serviço oficiais estão disponíveis no site BitPay."
 
 #: www/views/tab-import-phrase.html:4
@@ -2782,7 +2782,7 @@ msgid "The spend proposal is not pending"
 msgstr "A proposta de gasto não está pendente"
 
 #: www/views/modals/wallet-balance.html:36
-msgid "The total amount of bitcoin stored in this wallet."
+msgid "The total amount of crown stored in this wallet."<MSGID-CHANGED>
 msgstr "A quantidade total de bitcoin armazenado nesta carteira."
 
 #: www/views/preferencesHistory.html:27
@@ -2813,11 +2813,11 @@ msgid "This app is fantastic!"
 msgstr "Esta aplicação é fantástica!"
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your bitcoin with cutting-edge security."
+msgid "This app stores your crown with cutting-edge security."<MSGID-CHANGED>
 msgstr "Este aplicativo armazena seu bitcoin com segurança de ponta."
 
 #: src/js/controllers/confirm.js:468
-msgid "This bitcoin payment request has expired."
+msgid "This crown payment request has expired."<MSGID-CHANGED>
 msgstr "Este bitcoin pagamento pedido expirou."
 
 #: www/views/join.html:130
@@ -2831,7 +2831,7 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "Esta frase de recuperação foi criada com uma senha. Para recuperar esta carteira, tanto a frase de recuperação como a senha são necessárias."
 
 #: www/views/tx-details.html:93
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current Crown network fees. Spending these funds will need a Crown network fee cost comparable to the funds itself."<MSGID-CHANGED>
 msgstr "Este valor de transação é muito pequeno em comparação com as taxas de rede Bitcoin atuais. Gastar estes fundos terão uma taxa de rede Bitcoin maior do que o fundo em si."
 
 #: www/views/tx-details.html:89
@@ -2858,11 +2858,11 @@ msgid "To"
 msgstr "Para"
 
 #: www/views/tab-send.html:32
-msgid "To get started, buy bitcoin or share your address. You can receive bitcoin from any wallet or service."
+msgid "To get started, buy crown or share your address. You can receive crown from any wallet or service."<MSGID-CHANGED>
 msgstr "Para começar, compre bitcoins ou compartilhe seu endereço. Você pode receber bitcoins de qualquer carteira ou serviço."
 
 #: www/views/tab-send.html:33
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
+msgid "To get started, you'll need to create a crown wallet and get some crown."<MSGID-CHANGED>
 msgstr "Para começar, você precisa criar uma carteira de bitcoins e obter alguns bitcoins."
 
 #: src/js/services/bitpayAccountService.js:73
@@ -2954,7 +2954,7 @@ msgid "Try again in {{expires}}"
 msgstr "Tente novamente em {{expires}}"
 
 #: www/views/bitpayCardIntro.html:18
-msgid "Turn bitcoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgid "Turn crown into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."<MSGID-CHANGED>
 msgstr "Transforme bitcoin em dólares, deslize em qualquer lugar que Visa <sup>&reg;</sup> seja aceito."
 
 #: www/views/tab-import-phrase.html:17
@@ -3319,7 +3319,7 @@ msgid "You can make contributions by signing up on our Crowdin community transla
 msgstr "Você pode fazer contribuições inscrevendo-se no nosso site da comunidade de tradução Crowdin. Estamos ansiosos para ouvir de você!"
 
 #: www/views/tab-scan.html:16
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
+msgid "You can scan crown addresses, payment requests, paper wallets, and more."<MSGID-CHANGED>
 msgstr "Você pode escanear endereços bitcoins, pedidos de pagamento carteiras de papel e muito mais."
 
 #: src/js/controllers/preferencesAbout.js:14
@@ -3327,7 +3327,7 @@ msgid "You can see the latest developments and contribute to this open source ap
 msgstr "Você pode ver os mais recentes desenvolvimentos e contribuir para este aplicativo de código aberto, visitando nosso projeto no GitHub."
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend bitcoin at millions of websites and stores worldwide."
+msgid "You can spend crown at millions of websites and stores worldwide."<MSGID-CHANGED>
 msgstr "Você pode gastar bitcoins em milhões de sites e lojas em todo o mundo."
 
 #: www/views/backup.html:12
@@ -3339,7 +3339,7 @@ msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
 msgstr "Você pode trocá-lo por outras moedas como dólares americanos, Euros ou libras."
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your bitcoin."
+msgid "You control your crown."<MSGID-CHANGED>
 msgstr "Você controla o seu bitcoin."
 
 #: www/views/modals/chooseFeeLevel.html:64
@@ -3364,11 +3364,11 @@ msgid "Your Gift Cards"
 msgstr ""
 
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your bitcoin wallet is backed up!"
+msgid "Your crown wallet is backed up!"<MSGID-CHANGED>
 msgstr "O backup de sua carteira de bitcoins está feito!"
 
 #: www/views/tab-home.html:36
-msgid "Your bitcoin wallet is ready!"
+msgid "Your crown wallet is ready!"<MSGID-CHANGED>
 msgstr "Sua carteira de bitcoins está pronta!"
 
 #: www/views/modals/chooseFeeLevel.html:61
@@ -3464,7 +3464,7 @@ msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain inform
 msgstr "{{appName}} depende do Bitcore Wallet Service (BWS) para informações sobre cadeias de blocos, rede e sincronização Copayer. A configuração padrão aponta para https://bws.crown.tech (instância pública BWS do Crown)."
 
 #: src/js/controllers/confirm.js:358
-msgid "{{fee}} will be deducted for bitcoin networking fees."
+msgid "{{fee}} will be deducted for crown networking fees."<MSGID-CHANGED>
 msgstr "{{fee}} será deduzido para taxas de rede bitcoins."
 
 #: www/views/confirm.html:87
@@ -3479,4 +3479,3 @@ msgstr "Transações de {{updatingTxHistoryProgress}} transferidas"
 #: www/views/includes/walletInfo.html:13
 msgid "{{wallet.m}}-of-{{wallet.n}}"
 msgstr "{{wallet.m}}-de-{{wallet.n}}"
-
