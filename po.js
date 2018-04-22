@@ -4,12 +4,23 @@ let cp = require('child_process');
 let fs = require('fs');
 let assert = require('assert');
 
+let ensureSingleTrailingBlankLine = lines => {
+  if (lines[lines.length - 1] !== '') {
+    lines.push('');
+  }
+  else {
+    while (lines[lines.length - 2] === '') {
+      lines.pop();
+    }
+  }
+};
+
 let sourceText = fs.readFileSync('i18n/po/template.pot', {encoding: 'utf8'});
 let sourceLines = sourceText.split(/\n|\r\n/);
 let sourceLinesBodyStartIndex = sourceLines.indexOf('');
 
 assert(sourceLines[0] === 'msgid ""');
-assert(sourceLines[sourceLines.length - 1] === '' && sourceLines[sourceLines.length - 2].trim() !== '');
+ensureSingleTrailingBlankLine(sourceLines);
 assert(1 <= sourceLinesBodyStartIndex && sourceLinesBodyStartIndex <= 19);
 
 fs.readdirSync('i18n/po').filter(m => m.endsWith('.po')).forEach(filename => {
@@ -20,10 +31,8 @@ fs.readdirSync('i18n/po').filter(m => m.endsWith('.po')).forEach(filename => {
   let targetLines = targetText.split(/\n|\r\n/);
 
   assert(targetLines[0] === 'msgid ""');
-  assert(targetLines[targetLines.length - 1] === '' && targetLines[targetLines.length - 2].trim() !== '');
-
+  ensureSingleTrailingBlankLine(targetLines);
   let targetLinesBodyStartIndex = targetLines.indexOf('');
-
   assert(1 <= targetLinesBodyStartIndex && targetLinesBodyStartIndex <= 19);
 
   let sourceCursor = sourceLinesBodyStartIndex;
