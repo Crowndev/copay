@@ -21,6 +21,15 @@ Learning from commit `585e4d5dabaef15f40896cad7a704096f2a91330` we modified this
 
 To publish this package to npm, for now we must type `npm run apply:copay` to generate `package.json` first. This takes a long time and should be improved in the future.
 
+We've added a script `po.js` to help translate in `i18n/po` directory so that there's no need to use Crowdin. Whenever the English version of some UI text changes, you should run:
+
+```bash
+grunt translate
+node po
+```
+
+Then search for `<MSGID-CHANGED>` in all files to find where translations (changes of `msgstr`) should be made, and after each translation is done, remove the corresponding `<MSGID-CHANGED>`. In the end, there should be no `<MSGID-CHANGED>`, otherwise it's not valid PO format.
+
 To-do List
 ==========
 
