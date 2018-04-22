@@ -26,27 +26,63 @@ fs.readdirSync('i18n/po').filter(m => m.endsWith('.po')).forEach(filename => {
 
   assert(1 <= targetLinesBodyStartIndex && targetLinesBodyStartIndex <= 19);
 
-  for (let i = 0; i < sourceLines.length - sourceLinesBodyStartIndex; i++) {
-    let sourceLine = sourceLines[sourceLinesBodyStartIndex + i];
-    let targetLine = targetLines[targetLinesBodyStartIndex + i];
-    let errorMessage = `Target po file line number: ${targetLinesBodyStartIndex + i}`;
-    if (sourceLine.startsWith('msgid ')) {
-      assert(targetLine.startsWith('msgid '), errorMessage);
-      targetLines[targetLinesBodyStartIndex + i] = sourceLine;
-    }
-    else if (sourceLine.startsWith('msgstr ')) {
-      assert(targetLine.startsWith('msgstr '), errorMessage);
+  let sourceCursor = sourceLinesBodyStartIndex;
+  let targetCursor = targetLinesBodyStartIndex;
+  let inMsgstr = false;
+  while (true) {
+    let sourceLine = sourceLines[sourceCursor];
+    let targetLine = targetLines[targetCursor];
+    let errorMessage = `Target po file line number: ${targetCursor}`;
+    if (inMsgstr) {
+      if (sourceLine.startsWith('"')) {
+        sourceCursor++;
+      }
+      else if (targetLine.startsWith('"')) {
+        targetCursor++;
+      }
+      else {
+        inMsgstr = false;
+      }
     }
     else {
-      assert(targetLine === sourceLine, errorMessage);
+      if (sourceLine === '') {
+        if (sourceCursor < sourceLines.length - 1) {
+          sourceCursor++;
+        }
+        else {
+          assert(targetLine === '' && targetCursor === targetLines.length - 1, errorMessage);
+          break;
+        }
+      }
+      else if (targetLine === '') {
+        if (targetCursor < targetLines.length - 1) {
+          targetCursor++;
+        }
+        else {
+          assert(sourceLine === '' && sourceCursor === sourceLines.length - 1, errorMessage);
+          break;
+        }
+      }
+      else if (sourceLine.startsWith('msgid ')) {
+        assert(targetLine.startsWith('msgid '), errorMessage);
+        targetLines[targetCursor] = sourceLine;
+        sourceCursor++;
+        targetCursor++;
+      }
+      else if (sourceLine.startsWith('msgstr ')) {
+        assert(inMsgstr === false, errorMessage);
+        inMsgstr = true;
+        assert(targetLine.startsWith('msgstr '), errorMessage);
+        sourceCursor++;
+        targetCursor++;
+      }
+      else {
+        assert(targetLine === sourceLine, errorMessage);
+        sourceCursor++;
+        targetCursor++;
+      }
     }
   }
-
-  // This check is placed at the end because it should first check and display the accurate line
-  // for the possible error. If this check is done beforehand, the performance will be faster, but we
-  // won't know which area in the po file causes the error.
-  // Maybe this check is useless if it's placed here.
-  assert(sourceLines.length - sourceLinesBodyStartIndex === targetLines.length - targetLinesBodyStartIndex);
 
   targetText = targetLines.join('\n');
   fs.writeFileSync(targetFile, targetText);
